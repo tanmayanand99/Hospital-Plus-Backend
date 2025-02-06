@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "https://euphonious-puffpuff-360553.netlify.app/")
 @RequestMapping("/api/appointments")
 public class AppointmentController {
     @Autowired

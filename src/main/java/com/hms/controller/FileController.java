@@ -9,6 +9,7 @@ import java.io.File;
 import java.io.IOException;
 
 @RestController
+@CrossOrigin(origins = "https://euphonious-puffpuff-360553.netlify.app/")
 @RequestMapping("/api/files")
 public class FileController {
     @PostMapping("/upload")
