@@ -10,7 +10,6 @@ import java.io.IOException;
 
 @RestController
 @RequestMapping("/api/files")
-@CrossOrigin(origins = "https://health-carepulse-s7d8.vercel.app")
 public class FileController {
     @PostMapping("/upload")
     public ResponseEntity<String> uploadFile(@RequestParam("file") MultipartFile file) {

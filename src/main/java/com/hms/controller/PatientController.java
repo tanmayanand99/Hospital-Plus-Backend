@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 
-@CrossOrigin(value = "https://health-carepulse-s7d8.vercel.app")
 @RestController
 @RequestMapping("/api/patients")
 public class PatientController {

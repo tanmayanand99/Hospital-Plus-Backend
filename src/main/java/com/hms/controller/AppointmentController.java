@@ -11,7 +11,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/appointments")
-@CrossOrigin(origins = "https://health-carepulse-s7d8.vercel.app")
 public class AppointmentController {
     @Autowired
     private AppointmentService appointmentService;
